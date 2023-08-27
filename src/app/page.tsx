@@ -1,7 +1,8 @@
 import Banner from "@/Sections/Banner/Banner";
 import Heading from "@/Sections/Heading/Heading";
 import Navbar from "@/Sections/Navbar/Navbar";
-import Shipping from "@/Sections/Shipping/Shipping";
+import Sponsor from "@/Sections/Sponsor/Sponsor";
+
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
          <Heading></Heading>
          <Navbar></Navbar>
          <Banner></Banner>
-         <Shipping></Shipping>
+         <Sponsor></Sponsor>
     </main>
   )
 }
