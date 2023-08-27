@@ -26,7 +26,7 @@ const FeatureItems = () => {
                 <h3 className="text-4xl font-semibold text-sky-900 mb-3">Featured Categories</h3>
                 <p className="text-base text-sky-700">Choose your necessary products from this feature categories.</p>
             </div>
-            <div className="grid grid-cols-4 gap-3 my-6 ">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-6 ">
                 {devices.map(device => (
                     <div key={device.id} className="">
                         <div className="card h-[500px] bg-slate-50 hover:bg-cyan-100 border border-sky-100 rounded-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">

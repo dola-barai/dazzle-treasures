@@ -11,7 +11,7 @@ const Banner = () => {
                             <div className="hero-overlay bg-opacity-60"></div>
                             <div className="hero-content text-left text-neutral-content">
                                 <div className="">
-                                    <h1 className="mb-5 md:text-6xl font-semibold font-serif">Enhance, Protect, and Personalize: <br /> Welcome to <span className="text-orange-700 text-7xl">Dazzle Treasures</span></h1>
+                                    <h1 className="mb-5 md:text-6xl font-semibold font-serif">Enhance, Protect, and Personalize: <br /> Welcome to <span className="text-orange-700 md:text-7xl">Dazzle Treasures</span></h1>
                                     <p className="md:text-xl">Personalize Your Smartphone with Our Stylish Accessories Collection</p>
                                     <div className="mt-4">
                                         <button className="btn bg-orange-700 text-white hover:bg-purple-600 me-3 hover:border-purple-600">Shop Now</button>
