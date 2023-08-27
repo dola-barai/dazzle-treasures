@@ -54,7 +54,7 @@ const WhyDazzle = () => {
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title">Shop by Onile</h2>
-                                <p>Your own pace, your own space. Shop online where and when it's convenient for you.</p>
+                                <p>Your own pace, your own space. Shop online where and when it is convenient for you.</p>
                             </div>
                         </div>
                     </div>
