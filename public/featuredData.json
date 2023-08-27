@@ -1,0 +1,109 @@
+[
+    {
+        "id": 1,
+        "device_name": "Smartphone X",
+        "image": "https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg?w=740&t=st=1693111622~exp=1693112222~hmac=1bf5bce0319dc0088e76a92865df0e2eb600eb20e79f4930cacce4c7d34268f3",
+        "specifications": {
+            "display": "6.5-inch AMOLED",
+            "processor": "Octa-core Snapdragon 888",
+            "memory": "8GB RAM, 128GB storage",
+            "camera": "Triple 12MP rear, 20MP front",
+            "battery": "4000mAh",
+            "operating_system": "Android 12"
+        }
+    },
+    {
+        "id": 2,
+        "device_name": "Laptop Pro",
+        "image": "https://img.freepik.com/free-photo/still-life-books-versus-technology_23-2150062920.jpg?w=740&t=st=1693120174~exp=1693120774~hmac=6a354619b5f065c22922c61080ccd93f5adbd642cc41f6a747a53010bc5ea08e",
+        "specifications": {
+            "display": "15.6-inch 4K IPS",
+            "processor": "Intel Core i7-11th Gen",
+            "memory": "16GB RAM, 512GB SSD",
+            "graphics": "NVIDIA GeForce RTX 3080",
+            "battery": "72Wh",
+            "operating_system": "Windows 10"
+        }
+    },
+    {
+        "id": 3,
+        "device_name": "Wireless Earbuds 2.0",
+        "image": "https://img.freepik.com/free-photo/black-wireless-earbud-with-charging-case_1268-14371.jpg?w=740&t=st=1693111712~exp=1693112312~hmac=27baf8d831a6b2cd0917cb30c5bbbfb8cbad3dffa705fe4a1be22e7c68064b03",
+        "specifications": {
+            "connectivity": "Bluetooth 5.2",
+            "battery_life": "Up to 8 hours",
+            "charging_case": "Wireless charging, 24 hours extra",
+            "water_resistance": "IPX7",
+            "sound_quality": "Hi-Res audio",
+            "special_features": "Active noise cancellation"
+        }
+    },
+    {
+        "id": 4,
+        "device_name": "Smart TV 55X",
+        "image": "https://img.freepik.com/free-photo/man-watching-his-favorite-movie-tv_23-2149047399.jpg?w=740&t=st=1693120261~exp=1693120861~hmac=989d470e276348976ebbd4292edc1bf395a00f812656364e4b8273b03bd6be7b",
+        "specifications": {
+            "display": "55-inch 4K QLED",
+            "smart_features": "Built-in streaming apps",
+            "sound_system": "Dolby Atmos",
+            "connectivity": "Wi-Fi, Bluetooth",
+            "ports": "4 HDMI, 3 USB",
+            "operating_system": "SmartOS"
+        }
+    },
+    {
+        "id": 5,
+        "device_name": "Gaming Console Z",
+        "image": "https://img.freepik.com/free-photo/high-angle-controllers-headphones_23-2149829136.jpg?w=740&t=st=1693111773~exp=1693112373~hmac=7ef4f55bb3cd78198b39d0425ffb337db2d9a58cec9d5f12db8fa83f470abddc",
+        "specifications": {
+            "processor": "Custom 8-core AMD Zen 2",
+            "graphics": "AMD RDNA 2 architecture",
+            "memory": "16GB GDDR6",
+            "storage": "1TB SSD",
+            "max_resolution": "4K",
+            "ray_tracing": true,
+            "backward_compatibility": "Select previous-gen titles"
+        }
+    },
+    {
+        "id": 6,
+        "device_name": "Fitness Tracker V",
+        "image": "https://img.freepik.com/free-photo/contemporary-application-runner-mobile-phone_329181-4392.jpg?w=740&t=st=1693111823~exp=1693112423~hmac=2bb3364cfcae9f3e6d52803d25a2d1fd90b3f6476650438a4c62821afd302e08",
+        "specifications": {
+            "display": "1.3-inch OLED",
+            "tracking": "Steps, heart rate, sleep",
+            "water_resistance": "IP67",
+            "battery_life": "Up to 7 days",
+            "connectivity": "Bluetooth",
+            "compatibility": "iOS, Android"
+        }
+    },
+    {
+        "id": 7,
+        "device_name": "Smart Refrigerator R",
+        "image": "https://img.freepik.com/free-vector/household-appliances-gift-realistic_1284-65309.jpg?w=740&t=st=1693120207~exp=1693120807~hmac=e27309ca161281aac4039420851e917b52260f93427c1dc5ffc1266f08aed872",
+        "specifications": {
+            "capacity": "20 cu. ft.",
+            "cooling_system": "Twin Cooling Plus",
+            "display": "8-inch touchscreen",
+            "smart_features": "Food tracking, recipe suggestions",
+            "connectivity": "Wi-Fi",
+            "energy_star": true
+        }
+    },
+    {
+        "id": 8,
+        "device_name": "Drone D1",
+        "image": "https://img.freepik.com/free-photo/flying-drone-silver-joystick-it_140725-8411.jpg?w=740&t=st=1693111918~exp=1693112518~hmac=de3e6e53b90bfb0ac42d01735d41c12faac603d90d16cde746fb94e21cb96631",
+        "specifications": {
+            "flight_time": "25 minutes",
+            "camera": "4K UHD",
+            "max_speed": "35 mph",
+            "range": "300 meters",
+            "features": "GPS, Follow Me mode",
+            "remote_control": "Included"
+        }
+    }
+
+
+    ]
