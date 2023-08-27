@@ -29,7 +29,7 @@ const FeatureItems = () => {
             <div className="grid grid-cols-4 gap-3 my-6 ">
                 {devices.map(device => (
                     <div key={device.id} className="">
-                        <div className="card h-[500px] bg-sky-100 rounded-none">
+                        <div className="card h-[500px] bg-slate-50 hover:bg-cyan-100 border border-sky-100 rounded-none transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none">
                             <figure className="px-3 py-3 ">
                                 <Image
                                     src={device.image}
