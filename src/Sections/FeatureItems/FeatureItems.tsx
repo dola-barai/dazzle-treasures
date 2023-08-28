@@ -3,9 +3,45 @@
 import Image from 'next/image';
 import { useState, useEffect } from 'react'
 
+interface Device {
+    id: number;
+    device_name: string;
+    image: string;
+    specifications: {
+      
+      display: string;
+      processor: string;
+      memory: string;
+      camera: string;
+      battery: string;
+      operating_system: string;
+      graphics: string;
+      connectivity: string;
+      battery_life: string;
+      charging_case: string;
+      water_resistance: string;
+      sound_quality: string;
+      special_features: string;
+      storage: string;
+      max_resolution: string;
+      ray_tracing: string;
+      backward_compatibility: string;
+      compatibility: string;
+      cooling_system: string;
+      energy_star: string;
+      flight_time: string;
+      max_speed: string;
+      range: string;
+      features: string;
+      remote_control: string;
+      format_support: string;
+      smart_features: string;
+      capacity: string;
+    };
+}
 
 const FeatureItems = () => {
-    const [devices, setDevices] = useState(null)
+    const [devices, setDevices] = useState<Device[] | null>(null);
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
