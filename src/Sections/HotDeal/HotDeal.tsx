@@ -9,7 +9,7 @@ const HotDeal = () => {
     const [flip, setFlip] = useState(false);
     return (
         <div className='mx-10 my-32' style={{ backgroundImage: 'url(https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147916715.jpg?w=740&t=st=1693332292~exp=1693332892~hmac=7d785dc73d722b5f7ee78c10f7f717e35d7c5785d51ac5b331b4c7f2c5402e9f)' }}>
-            <div className='grid grid-cols-3 gap-2'>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-2'>
                 <div className='grid grid-rows-2 gap-2'>
                     <ReactCardFlip isFlipped={flip}
                         flipDirection="horizontal">
