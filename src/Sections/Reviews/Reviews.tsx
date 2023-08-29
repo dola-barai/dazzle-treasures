@@ -12,7 +12,7 @@ const Reviews = () => {
     var settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -47,7 +47,7 @@ const Reviews = () => {
     ]
 
     return (
-        <div className='my-20'>
+        <div className='my-20 mx-10'>
             <div className='text-center'>
                 <h3 className="text-4xl font-semibold text-sky-900 mb-3">Testimonials</h3>
                 <p className="text-base text-sky-700 mb-12">From our valuable customer</p>
@@ -55,18 +55,18 @@ const Reviews = () => {
             <Slider {...settings}>
                 {reviews.map((review, index) => (
                     <div key={index}>
-                        <div className="card w-96 bg-base-100">
+                        <div className="card bg-base-100">
                             <figure>
                                 <Image
                                     src={review.image}
                                     className='rounded-full'
                                     alt="Image"
-                                    width={100}
-                                    height={100}
+                                    width={80}
+                                    height={80}
                                 />
                             </figure>
                             <div className="card-body items-center text-center">
-                            <Rating className="mb-2 pt-2" style={{ maxWidth: 100 }} value={review.rating} readOnly />
+                            <Rating className="mb-2 pt-2" style={{ maxWidth: 80 }} value={review.rating} readOnly />
                                 <p className='text-base italic mb-2'>"{review.review}"</p>
                                 <h2 className="text-lg italic text-orange-700">{review.author_name}</h2>
                                 

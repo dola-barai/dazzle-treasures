@@ -57,7 +57,7 @@ const FeatureItems = () => {
     if (isLoading) return <p>Loading...</p>
     if (!devices) return <p>No profile data</p>
     return (
-        <div className="my-10 mx-6">
+        <div className="my-10 px-6">
             <div>
                 <h3 className="text-4xl font-semibold text-sky-900 mb-3">Featured Categories</h3>
                 <p className="text-base text-sky-700">Choose your necessary products from this feature categories.</p>

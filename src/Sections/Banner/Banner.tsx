@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <div>
             <main>
-                <div className="carousel w-full">
+                <div className="carousel">
                     <div id="slide1" className="carousel-item relative w-full">
                         <div className="hero min-h-screen" style={{ backgroundImage: `url("https://img.freepik.com/free-photo/laptop-with-blank-paper-headphones_23-2148036930.jpg?w=740&t=st=1693063166~exp=1693063766~hmac=264e19f4873f3a3d0cd26832b35300f8e1da4d81a859c92b43b4ceab5988a490")` }}>
                             <div className="hero-overlay bg-opacity-60"></div>

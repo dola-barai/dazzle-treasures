@@ -1,7 +1,7 @@
 const Subscribe = () => {
     return (
         <div>
-            <div className="py-20 bg-sky-700 w-screen">
+            <div className="py-20 bg-sky-700">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="md:ms-20">
                         <h3 className="text-4xl font-semibold text-white">Subscrible & Get <span className="text-orange-600">25%</span> Discount</h3>

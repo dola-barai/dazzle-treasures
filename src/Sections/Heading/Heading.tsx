@@ -4,7 +4,7 @@ const Heading = () => {
 
     return (
         <div>
-            <div className="navbar -py-4 bg-[#322653] px-8 hidden lg:flex">
+            <div className="navbar -py-4 bg-[#322653] px-8 lg:flex">
                 <div className="navbar-start">
                     <div className="flex gap-3 ">
                         <h1 className="normal-case text-xs text-white hover:text-[#9288F8]">About us</h1>
