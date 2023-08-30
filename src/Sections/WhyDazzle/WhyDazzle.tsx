@@ -5,7 +5,7 @@ const WhyDazzle = () => {
         <div>
             <div className=" md:my-20 md:mx-20 py-10 px-10"
                 style={{
-                    backgroundImage: `url('https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=740&t=st=1693132707~exp=1693133307~hmac=5358219ec2033f6ba241ce44298d717a8cf8c72e2028c01a10d1c70da814d1b4')`,
+                    backgroundImage: `url('https://i.makeagif.com/media/9-10-2016/PPCKYi.gif')`,
                     backgroundSize: 'cover',
                 }}>
                 <div className="hero-overlay "></div>

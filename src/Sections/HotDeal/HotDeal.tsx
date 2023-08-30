@@ -13,7 +13,7 @@ const HotDeal = () => {
                 <div className='grid grid-rows-2 gap-2'>
                     <ReactCardFlip isFlipped={flip}
                         flipDirection="horizontal">
-                        <div className='' onMouseEnter={() => setFlip(!flip)}>
+                        <div className='' onClick={() => setFlip(!flip)}>
                             <Image
                                 src='https://img.freepik.com/free-photo/pink-headphones-wireless-digital-device_53876-96804.jpg?w=740&t=st=1693158636~exp=1693159236~hmac=602bd806b8a56569039fe762fd814a3a074f7e275d084749bc63c8c5422b3969'
                                 className='rounded-none'
@@ -22,7 +22,7 @@ const HotDeal = () => {
                                 height={200}
                             />
                         </div>
-                        <div className='' onMouseEnter={() => setFlip(!flip)}>
+                        <div className='' onClick={() => setFlip(!flip)}>
                             <Image
                                 src='https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309649.jpg?w=740&t=st=1693331856~exp=1693332456~hmac=2f90b4754d8842633ac175afa9a4aea4ffaff8d263b247b0bb7ee7d9da988db7'
                                 className='rounded-none'
@@ -35,10 +35,10 @@ const HotDeal = () => {
 
                     <div>
                         <div className="card w-[420px] h-[280px] rounded-none " style={{
-                            backgroundImage: `url('https://img.freepik.com/free-photo/modern-home-office-with-illuminated-computer-monitor-generative-ai_188544-19441.jpg?w=826&t=st=1693288936~exp=1693289536~hmac=06017a118a14f8f752f0f5899682e44833daa90a74fb7eee53f978e8056b6fbd')`,
+                            backgroundImage: `url('https://www.indiaistore.com/files/uploads/bts/1.gif')`,
                             backgroundSize: 'cover',
                         }}>
-                            <div className="card-body text-left">
+                            <div className="card-body text-left ">
                                 <h2 className="card-title text-orange-400">ELECTRONICS</h2>
                                 <p className='text-base text-white mb-3'>Hot devices, Latest trending</p>
                                 <button className="btn bg-orange-500 hover:text-orange-700 border-0 rounded-md text-white normal-case w-[120px] btn-sm">Learn More</button>
@@ -54,7 +54,7 @@ const HotDeal = () => {
                 <div className='grid grid-rows-2 gap-2'>
                     <div>
                         <div className="card w-[420px] h-[280px]  rounded-none " style={{
-                            backgroundImage: `url('https://img.freepik.com/premium-photo/glass-smartphone-modern-mobile-device-3d-illustration-render_113524-390.jpg?w=826')`,
+                            backgroundImage: `url('https://www.androidauthority.com/wp-content/uploads/2020/03/TCL-Rollable-Concept-Gif.gif')`,
                             backgroundSize: 'cover',
                         }}>
                             <div className="card-body text-left my-16">
@@ -73,7 +73,7 @@ const HotDeal = () => {
                                 alt="Image"
                                 width={420}
                                 height={70}
-                                onMouseEnter={() => setFlip(!flip)}
+                                onClick={() => setFlip(!flip)}
                             />
                             <Image
                                 src='https://img.freepik.com/free-photo/high-angle-controller-vr-glasses_23-2149829130.jpg?w=740&t=st=1693332983~exp=1693333583~hmac=c47d49f4ae1968f9c06adf709062ba00838e555e6b7932f0b18abb7a3480b09a'
@@ -81,7 +81,7 @@ const HotDeal = () => {
                                 alt="Image"
                                 width={420}
                                 height={70}
-                                onMouseEnter={() => setFlip(!flip)}
+                                onClick={() => setFlip(!flip)}
                             />
                         </ReactCardFlip>
                     </div>
