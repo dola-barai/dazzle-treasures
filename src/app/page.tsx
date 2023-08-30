@@ -1,4 +1,5 @@
 import Banner from "@/Sections/Banner/Banner";
+import BestSeller from "@/Sections/BestSeller/BestSeller";
 import FeatureItems from "@/Sections/FeatureItems/FeatureItems";
 import Footer from "@/Sections/Footer/Footer";
 import Heading from "@/Sections/Heading/Heading";
@@ -20,6 +21,7 @@ export default function Home() {
          <Sponsor></Sponsor>
          <FeatureItems></FeatureItems>
          <HotDeal></HotDeal>
+         <BestSeller></BestSeller>
          <WhyDazzle></WhyDazzle>
          <Reviews></Reviews>
          <Subscribe></Subscribe>
