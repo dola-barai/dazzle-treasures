@@ -11,10 +11,6 @@ import Footer from '@/Sections/Footer/Footer';
 const page = () => {
     const [inputValue, setInputValue] = useState('');
 
-    const handleChange = (e) => {
-        setInputValue(e.target.value);
-    };
-
     const [devices, setDevices] = useState<Device[] | null>(null);
     const [isLoading, setLoading] = useState(true)
 
@@ -45,7 +41,6 @@ const page = () => {
                             type="text"
                             placeholder="Search your products..."
                             value={inputValue}
-                            onChange={handleChange}
                             className='input input-bordered h-[52px] w-full'
                         />
                     </div>
