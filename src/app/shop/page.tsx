@@ -1,4 +1,5 @@
 "use client";
+
 import Navbar from '@/Sections/Navbar/Navbar';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import Image from 'next/image';
@@ -60,15 +61,15 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-3 mx-20 '>
+            <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-5 mx-20 '>
                 <div>
                     <div className='border border-sky-100 mt-6 rounded-lg'>
-                        <h2 className='text-xl font-semibold text-sky-900 mb-3 px-6 rounded-lg py-3 bg-sky-300'>PRODUCTS</h2>
-                        <div className="grid grid-cols-1 gap-8 mb-12 mx-10">
+                        <h2 className='text-xl font-semibold text-sky-900 mb-3 px-6 rounded-tl-lg rounded-tr-lg py-3 bg-sky-300'>PRODUCTS</h2>
+                        <div className="grid grid-cols-1 gap-10 mb-20 mx-10">
                             {devices.map(device => (
                                 <div key={device.id} className="">
                                     <div className="card h-[100px] ">
-                                        <div className='flex gap-2'>
+                                        <div className='flex gap-3'>
                                             <figure className="px-3 py-3 ">
                                                 <Image
                                                     src={device.image}
