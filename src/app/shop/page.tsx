@@ -1,5 +1,5 @@
 "use client";
-
+"use";
 import Navbar from '@/Sections/Navbar/Navbar';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import Image from 'next/image';
@@ -15,7 +15,7 @@ const page = () => {
         setInputValue(e.target.value);
     };
 
-    const [devices, setDevices] = useState<Device[] | null>(null);
+    const [devices, setDevices] = useState(null);
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
