@@ -3,7 +3,7 @@ import Image from "next/image";
 const WhyDazzle = () => {
     return (
         <div>
-            <div className=" md:my-20 md:mx-20 py-10 px-10"
+            <div className=" md:my-20 md:mx-60 py-10 px-20"
                 style={{
                     backgroundImage: `url('https://i.makeagif.com/media/9-10-2016/PPCKYi.gif')`,
                     backgroundSize: 'cover',
@@ -11,7 +11,7 @@ const WhyDazzle = () => {
                 <div className="hero-overlay "></div>
                 <h1 className="my-3 text-3xl font-semibold text-center text-white">Why Dazzle Treasures?</h1>
                 <div className="hero-content text-center text-white">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-2">
                         <div className="card w-72 bg-transparent">
                             <figure className="px-2 pt-2">
                                 <Image

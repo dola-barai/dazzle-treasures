@@ -8,7 +8,7 @@ import { RiLogoutCircleRLine } from 'react-icons/ri'
 const Navbar = () => {
     const navOptions = <>
         <li><Link href="/" className="text-slate-500 hover:text-purple-800">Home</Link></li>
-        <li><Link href="/" className="text-slate-500 hover:text-purple-800">Shop</Link></li>
+        <li><Link href="/shop" className="text-slate-500 hover:text-purple-800">Shop</Link></li>
         <li><Link href="/" className="text-slate-500 hover:text-purple-800">Pages</Link></li>
         <li><Link href="/" className="text-slate-500 hover:text-purple-800">Blog</Link></li>
         <li><Link href="/" className="text-slate-500 hover:text-purple-800">Contact us</Link></li>
