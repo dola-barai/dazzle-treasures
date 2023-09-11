@@ -15,7 +15,7 @@ const page = () => {
         setInputValue(e.target.value);
     };
 
-    const [devices, setDevices] = useState(null);
+    const [devices, setDevices] = useState<Device[] | null>(null);
     const [isLoading, setLoading] = useState(true)
 
     useEffect(() => {
